@@ -6,6 +6,9 @@ body{
     font-family: sans-serif;
     background-color: bisque;
 }
+.gallery{
+    display: flex;
+}
 .gallery img{
    
     width: 100%;
