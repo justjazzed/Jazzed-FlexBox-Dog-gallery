@@ -11,12 +11,19 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+    margin: 0 auto;
+    max-width: 1400px;
+   
+    
 }
 .gallery img{
    
     width: 100%;
     max-width: 350px;
     height: 300px;
+    object-fit: cover;
 }
 .header{
     text-align: center;
